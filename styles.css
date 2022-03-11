@@ -199,6 +199,8 @@ button{
 
 .welcome-description{
   font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .about-grid{
@@ -256,7 +258,7 @@ using the regular bullet points provided by <li> didn't suit well with the webpa
   width: 100%;
   display: flex;
   justify-content: center;
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Montserrat',sans-serif;
   letter-spacing: 2px;
   color: #152C52;
 }
