@@ -122,7 +122,8 @@ button{
 .mobile-menu li{
   margin-bottom: 10px;
 }
-.home {
+
+/*.home {
   float: left;
   width: 100%;
   display: flex;
@@ -131,6 +132,7 @@ button{
   padding: 1.5rem;
   font-size: 1.6rem;
 }
+*/
 .btn-cont{
   width: 100%;
   display: flex;
@@ -150,20 +152,20 @@ button{
 }
 .nav-bar{
   width: 100%;
-  position: sticky;
+  position: fixed;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   background-color: #E6EDFA; 
-  top: 0;
+  /*top: 0;
   left: 0;
   z-index: 10;
-  box-shadow: 0 6px 15px -10px grey;
+  box-shadow: 0 6px 15px -10px grey;*/
 }
 
 .nav-list{
   display: flex;
-  margin-right: 1.5rem;
 }
+
 .nav-list a{
   display: block;
   font-size: 20px;
@@ -187,18 +189,17 @@ button{
 }
 
 .welcome-title, .welcome-description{
-  margin: 5px;
-  padding: 10px;
+  color: #152C52;
+  margin: 2rem;
+  padding: 2rem;
 }
 
 .welcome-title{
-   color: #E6EDFA;
   font-family: 'Montserrat', sans-serif;
 }
 
 .welcome-description{
   font-size: 2rem;
-  color: #E6EDFA;
 }
 
 .about-grid{
