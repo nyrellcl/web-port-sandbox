@@ -198,101 +198,6 @@ button{
 
 }
 
-.about-grid{
-  display: grid;
-  width: 100%;
-  padding: 3rem 0;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-  grid-template-rows: 1fr;
-  grid-template-areas:
-    "about skills"
-    ;
-}
-
- #about{
-  grid-area: about;
-  width: 100%;
-  display: grid;
-  margin: 15px auto;
-  justify-content: flex-start;
-}
-#skills{
-  grid-area: skills;
-  width: 100%;
-  height: 0;
-  display: grid;
-  margin: 15px auto;
-  justify-content: flex-start;
-}
-.skill-list{
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-}
-
-.skill-list > li{
-  padding: 18px;
-  padding: 16px;
-  font-size: 1.2rem;
-  display: flex;
-  align-items: center;
-  font-family: 'Montserrat', sans-serif;
-}
-/*I wanted to customize my own bullet points for the skills list.
-using the regular bullet points provided by <li> didn't suit well with the webpage*/
-.skill-list > li::before{
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #152C52;
-  margin: 1em;
-  display: inline;
-  margin-left: -1em;
-}
-
-.about-title{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  font-family: 'Montserrat',sans-serif;
-  letter-spacing: 2px;
-  color: #152C52;
-}
-
-.about-title > p{
-  text-align: left;
-}
-
-
-.proj-cont{
-  background-color: #F8FAFB;
-  padding: 3.6rem 2.5rem;
-  
-}
-.proj-cont-2{
-  background-color: #F3E2D0;
-  padding: 3.6rem 2.5rem;
-}
-
-.proj-cont-3{
-  background-color: #FFF7E0;
-  padding: 3.6rem 2.5rem;
-    
-}
-
-.proj-cont-4{
-  background-color: #e7efff;
-  padding: 3.6rem 2.5rem;
-}
-
-.proj-cont-5{
-  background-color: #f7f7f7;
-  padding: 3.6rem 2.5rem;
-}
-
-.proj-cont-6{
-  padding: 3.6rem 2.5rem;
-}
-
 .projects-section{
   display: inline-flex;
   justify-content: center;
@@ -300,16 +205,6 @@ using the regular bullet points provided by <li> didn't suit well with the webpa
   align-content: center;
   margin-top: 15px;
   
-}
-
-.project-1,
-.project-2,
-.project-3,
-.project-4,
-.project-5,
-.project-6{
-  margin: 70px auto;
-  width: 100%;
 }
 
 .proj-title{
@@ -325,13 +220,50 @@ using the regular bullet points provided by <li> didn't suit well with the webpa
   color: #152C52;
 }
 
-img{
+/*Project-grid*/
+
+.project-grid{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+}
+
+.project-1{
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.project-2{
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.project-3{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.project-4{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.photo-size{
+  width: 300px;
+  height: 300px;
+}
+
+
+
+/*img{
   display: flex;
   width: 100%;
   border-radius: 10px;
   margin: 25px auto;
   box-shadow: 0 11px 30px rgb(0 0 0 / 14%);
-}
+}*/
 
 .contact-info{
   display: flex;
