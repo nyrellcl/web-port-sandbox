@@ -228,6 +228,8 @@ button{
   align-items: center;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
+  margin: 4rem;
+  grid-gap: 2rem;
 }
 
 .project-1{
@@ -251,8 +253,10 @@ button{
 }
 
 .photo-size{
-  width: 300px;
-  height: 300px;
+  height: 400px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 0.95rem;
 }
 
 
