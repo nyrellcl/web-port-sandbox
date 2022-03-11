@@ -182,13 +182,17 @@ button{
 
 .welcome{
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.article-container{
+  display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
   background-color: #E6EDFA;
   padding: 3rem 0;
-  grid-column-start: 1;
-  grid-row-start: 1;
 }
 
 .welcome-title, .welcome-description{
