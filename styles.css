@@ -191,9 +191,10 @@ button{
 }
 
 .welcome-description{
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  width: 50%;
 
 }
 
