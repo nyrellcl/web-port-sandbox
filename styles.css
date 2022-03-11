@@ -172,6 +172,14 @@ button{
   background-color: #152C52;
   transition: background-color .5s;*/
 }
+
+.welcome-grid{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: auto;
+  margin: 2rem;
+}
+
 .welcome{
   display: flex;
   flex-direction: column;
@@ -179,6 +187,8 @@ button{
   width: 100%;
   background-color: #E6EDFA;
   padding: 3rem 0;
+  grid-column-start: 1;
+  grid-row-start: 1;
 }
 
 .welcome-title, .welcome-description{
@@ -197,36 +207,11 @@ button{
   width: 50%;
 }
 
-/*Contact-grid*/
-
-.contact-grid{
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(2, auto);
-  grid-gap 1rem;
-}
-
-.contact-1{
-  grid-column-start: 1;
-  grid-row-start: 1;
-}
-
-.contact-2{
+.contact{
   grid-column-start: 2;
   grid-row-start: 1;
 }
 
-.contact-3{
-  grid-column-start: 1;
-  grid-row-start: 2;
-}
-
-.contact-4{
-  grid-column-start: 2;
-  grid-row-start: 2;
-}
 
 .projects-section{
   display: inline-flex;
