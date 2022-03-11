@@ -332,10 +332,12 @@ button{
 
 #hover-up:hover{
   transform: translateY(-20px);
+  cursor: pointer;
 }
 
-#hover-down{
+#hover-down:hover{
   transform: translateY(20px);
+  cursor: pointer;
 }
 
 
