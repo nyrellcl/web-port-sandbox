@@ -195,7 +195,37 @@ button{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   width: 50%;
+}
 
+/*Contact-grid*/
+
+.contact-grid{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-gap 1rem;
+}
+
+.contact-1{
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.contact-2{
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.contact-3{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.contact-4{
+  grid-column-start: 2;
+  grid-row-start: 2;
 }
 
 .projects-section{
