@@ -14,10 +14,7 @@ body{
   margin: 0;
   line-height: 1.5;
 }
-h1{
-  color: #E6EDFA;
-  font-family: 'Montserrat', sans-serif;
-}
+
 p{
   font-size: 1.1rem;
   margin: 5px;
@@ -183,15 +180,23 @@ button{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   width: 100%;
   background-color: #152C52;
-  text-align: center;
   padding: 3rem 0;
   background-image: linear-gradient(345deg, #e6edfad4, rgb(86 18 141 / 14%));
 }
 
-.welcome > p{
+.welcome-title, .welcome-description{
+  margin: 5px;
+  padding: 10px;
+}
+
+.welcome-title{
+   color: #E6EDFA;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.welcome-description{
   font-size: 2rem;
   color: #E6EDFA;
 }
