@@ -217,12 +217,6 @@ button{
     grid-gap: 5rem;
 }
 
-.contact{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
 
 .projects-section{
   display: inline-flex;
