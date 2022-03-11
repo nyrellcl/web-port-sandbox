@@ -146,7 +146,6 @@ button{
 }
 .nav-bar{
   width: 100%;
-  position: fixed;
   display: flex;
   justify-content: center;
   background-color: #E6EDFA; 
