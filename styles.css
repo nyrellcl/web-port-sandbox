@@ -325,6 +325,21 @@ button{
   font-family: 'Roboto', sans-serif;
   letter-spacing: 2px;
 }
+
+#hover-up, #hover-down{
+  transition: all 0.5s;
+}
+
+#hover-up:hover{
+  transform: translateY(-20px);
+}
+
+#hover-down{
+  transform: translateY(20px);
+}
+
+
+
 @media screen and (max-width: 500px) {
   *{
     overflow-x: hidden;
