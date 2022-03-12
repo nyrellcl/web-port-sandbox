@@ -278,15 +278,26 @@ button{
   border-radius: 0.95rem;
 }
 
+/*Img-wrapper*/
 
+.img-wrapper{
+  position: relative;
+  overflow: hidden;
+}
 
-/*img{
+.img-content {
+  position: absolute;
+  inset: 0;
+  font-size: 2rem;
+  padding: 1rem;
+  background: rgba(255, 255,255, .4);
   display: flex;
-  width: 100%;
-  border-radius: 10px;
-  margin: 25px auto;
-  box-shadow: 0 11px 30px rgb(0 0 0 / 14%);
-}*/
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 
 .contact-info{
   display: flex;
