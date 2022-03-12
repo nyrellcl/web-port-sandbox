@@ -326,17 +326,17 @@ button{
   letter-spacing: 2px;
 }
 
-#hover-up, #hover-down{
+#hover-left, #hover-right{
   transition: all 0.5s;
 }
 
-#hover-up:hover{
-  transform: translateY(-20px);
+#hover-left:hover{
+  transform: translateX(20px);
   cursor: pointer;
 }
 
-#hover-down:hover{
-  transform: translateY(20px);
+#hover-right:hover{
+  transform: translateX(-20px);
   cursor: pointer;
 }
 
