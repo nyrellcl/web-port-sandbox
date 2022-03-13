@@ -296,6 +296,22 @@ button{
   align-items: center;
 }
 
+.img-wrapper > .photo-size, img-wrapper > .img-contnent {
+    transition: 200ms ease-in-out;
+}
+
+.img-wrapper:hover > .photo-size.blur {
+    filter: blur(5px);
+}
+
+.img-wrapper > .content.fade {
+    opacity: 0;
+}
+
+.img-wrapper:hover > .content.fade {
+    opacity: 1;
+}
+
 
 
 
