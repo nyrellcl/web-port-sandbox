@@ -296,7 +296,7 @@ button{
   align-items: center;
 }
 
-.img-wrapper > .photo-size, .img-wrapper > .img-contnent {
+.img-wrapper > .photo-size, .img-wrapper > .img-content {
     transition: 200ms ease-in-out;
 }
 
