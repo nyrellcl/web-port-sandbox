@@ -304,11 +304,11 @@ button{
     filter: blur(5px);
 }
 
-.img-wrapper > .content.fade {
+.img-wrapper > .img-content.fade {
     opacity: 0;
 }
 
-.img-wrapper:hover > .content.fade {
+.img-wrapper:hover > .img-content.fade {
     opacity: 1;
 }
 
