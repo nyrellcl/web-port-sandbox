@@ -11,6 +11,16 @@
 <body>
   <!--Nav section-->
   <main>
+  <nav class="nav-bar">
+    <a href="https://www.nyrellcl.com/" class="home">Nyrell Leonor</a>
+    <ul class="nav-list">
+      <li><a href="#about">About</a></li>
+      <li><a href="https://docs.google.com/document/d/1XLos1rNG2Lz3a6caDgse7fny02Qp1JOIEGdsNUyNFjk/edit#heading=h.3whwml4" target="_blank">Resume</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
   <!--Hamburger icon for mobile version-->
  <div class="ham-container">
   <div id="ham-icon" onclick="toggleMobileMenu(this)">
@@ -29,72 +39,120 @@
       
       
   <!--Welcome Section-->
-    <section class="welcome">
-    <article class="article-container">
-    <h1 class="welcome-title">Nyrell Leonor</h1>
-    <p class="welcome-description">I am an aspiring front-end engineer with the determination to continously learn and a passion to 
-      create intuitive, seamless, and useful user interface. </p>
-    <p class="welcome-description">I am currently strengthening my skills through creating projects and taking related courses. I am learning all
-    I can to become better than I was yesterday.</p>
-      </article>
-    
-    <div class="contact contact-grid">
-      <div class="contact-1">
-        <a href="https://www.linkedin.com/in/nyrell-leonor-39180a1a4/" target="_blank"><img id="hover-left" class="contacts-img" src="./web-port-imgs/linked.png" alt="linkedin logo"/></a>
-      </div>
-      
-      <div class="contact-2">
-        <a href="https://github.com/nyrellcl" target="_blank"><img id="hover-right" class="contacts-img" src="./web-port-imgs/github.png" alt="github logo" /></a>
-      </div>
-      
-      <div class="contact-3">
-        <a class="contact-links" href="/"><img id="hover-left" class="contacts-img" src="./web-port-imgs/phone.png" alt="phone logo" /></a>
-      </div>
-      
-      <div class="contact-4">
-        <a class="contact-links" href="mailto:nyrell.leonor2000@gmail.com" target="_blank"><img id="hover-right" class="contacts-img" src="at-solid.svg" alt="at logo" /></a>
-      </div>
-      
-      <div class="contact-5">
-        <a href="https://docs.google.com/document/d/1XLos1rNG2Lz3a6caDgse7fny02Qp1JOIEGdsNUyNFjk/edit#heading=h.3whwml4" target="_blank"><img id="hover-left" class="contacts-img" src="./web-port-imgs/resume-icon.png" alt="Resume icon"/></a>
-      </div>
-      
-      <div class="contact-6">
-        <a href="https://www.frontendmentor.io/profile/nyrellcl" target="_blank"><img id="hover-right" class="contacts-img" src="./web-port-imgs/internet-icon.png" alt="Internet icon"/></a>
-      </div>
-    </div>   
+  <section class="welcome">
+    <h1>Hello, I'm Nyrell</h1>
+    <p>Front-End Engineer</p>
+    <p>Welcome to my website</p>
+  </section>
+
+  <!--About Section-->
+  <!--Might make into a grid where about section has two parts and each on both ends
+of the screen or about section is on left side of screen and something else on the right
+side of screen-->
+  <section class="about-grid">
+    <article id="about">
+      <h2 class="about-title">About</h2>
+      <p>Foundational programming experience using Python.
+        Currently re-building my knowledge of development with HTML and CSS
+        through creating various projects & completing courses. Where I recently acquired a certificate for Responsive Web Design with
+        more certifications soon to be completed.</p>
+      <p>TailWind, Javascript/Typescript and other industry frameworks will soon be added to my expertise
+        as I progress as an engineer.</p>
+    </article>
+
+    <article id="skills">
+      <h2 class="about-title">Skills</h2>
+      <header>Languages</header>
+      <ul class="skill-list">
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+      </ul>
+      <header>Tools</header>
+      <ul class="skill-list">
+        <li>TailWind</li>
+        <li>Figma</li>
+      </ul>
+    </article>
   </section>
 
   <!--Projects Section-->
-  <!--<div class="projects-section">
+  <div class="projects-section">
     <h2 class="proj-title">Feel free to browse my projects</h2>
-  </div>-->
-    
-    <div class="project-grid">
-    <div class="project-1 img-wrapper"">
-      <img class="photo-size blur" src="./web-port-imgs/sunny-side.png" alt="Sunnyside website" />
-      <div class="img-content fade"><a href="https://nyrellcl.github.io/sunnyside/" target="_blank">Sunnyside site</a>
+  </div>
+  <div class="proj-cont-6" id="projects">
+    <div class="project-6">
+      <img src="./web-port-imgs/sunny-side.png" alt="Sunnyside website" />
+      <div class="btn-cont">
+        <button class="btn" type="button"><a href="https://github.com/nyrellcl/sunnyside" target="_blank">View Code Here</a></button>
+        <button class="btn" type="button"><a href="https://nyrellcl.github.io/sunnyside/" target="_blank">View Site Here</a></button>
       </div>
     </div>
-    
-    <div class="project-2 img-wrapper">
-      <img class="photo-size blur" src="./web-port-imgs/capture-world.png" alt="Sample photo portfolio" />
-      <div class="img-content fade"><a href="https://nyrellcl.github.io/photoportfolio/" target="_blank">Photo Portfolio site</a>
-      </div>                                                                                                 
-    </div>
-
-    <div class="project-3 img-wrapper">
-      <img class="photo-size blur" src="./web-port-imgs/order-summary.png" alt="Order Summary Challenge" />
-      <div class="img-content fade"><a href="https://nyrellcl.github.io/ordersummary/" target="_blank">Order Summary site</a>
-      </div>                                                                                                 
-    </div>
-  
-    <div class="project-4 img-wrapper">
-      <img class="photo-size blur" src="./web-port-imgs/lani.png" alt="Allani Portfolio"/>
-      <div class="img-content fade"><a href="https://nyrellcl.github.io/Lani/" target="_blank">Lani site</a>
-      </div>                                                                                  
+  </div>
+  <div class="proj-cont">
+    <div class="project-1">
+      <img src="./web-port-imgs/QR.png" alt="QR code challenge" />
+      <div class="btn-cont">
+        <button class="btn" type="button"><a href="https://github.com/nyrellcl/QRcodechallenge" target="_blank">View Code Here</a></button>
+        <button class="btn" type="button"><a href="https://www.frontendmentor.io/solutions/qr-code-challenge-Xp9un5LRm" target="_blank">View Site Here</a></button>
+      </div>
     </div>
   </div>
-</main>  
+  <div class="proj-cont-2">
+    <div class="project-2">
+      <img src="./web-port-imgs/capture-world.png" alt="Sample photo portfolio" />
+      <div class="btn-cont">
+        <button class="btn" type="button"><a href="https://github.com/nyrellcl/photoportfolio" target="_blank">View Code Here</a></button>
+        <button class="btn" type="button"><a href="https://nyrellcl.github.io/photoportfolio/" target="_blank">View Site Here</a></button>
+      </div>
+    </div>
+  </div>
+  <div class="proj-cont-3">
+    <div class="project-3">
+      <img src="./web-port-imgs/order-summary.png" alt="Order Summary Challenge" />
+      <div class="btn-cont">
+        <button class="btn" type="button"><a href="https://github.com/nyrellcl/ordersummary" target="_blank">View Code Here</a></button>
+        <button class="btn" type="button"><a href="https://www.frontendmentor.io/solutions/order-summary-card-Xn7S80vG-" target="_blank">View Site Here</a></button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="proj-cont-4">
+    <div class="project-4">
+      <img src="./web-port-imgs/lani.png" alt="Allani Portfolio"/>
+      <div class="btn-cont">
+        <button class="btn" type="button"><a href="https://github.com/nyrellcl/Lani" target="_blank">View Code Here</a></button>
+        <button class="btn" type="button"><a href="https://nyrellcl.github.io/Lani/" target="_blank">View Site Here</a></button>
+      </div>
+    </div>
+  </div>
+      
+
+  <!--<div class="proj-cont-5">
+    <div class="project-5">
+      <img src="testimonial.png" alt="Testimonial Grid" />
+      <div class="btn-cont">
+        <button class="btn" type="button"><a href="https://github.com/nyrellcl/testimonial" target="_blank">View Code Here</a></button>
+        <button class="btn" type="button"><a href="https://nyrellcl.github.io/testimonial/" target="_blank">View Site Here</a></button>
+      </div>
+    </div>
+  </div>-->
+  </main>
+
+  <!--Contacts section-->
+  <footer class="contact-info" id="contact">
+    <article class="contact-details">
+      <h2 class="contact-title">Contact</h2>
+      <p><a class="contact-links" href="https://www.linkedin.com/in/nyrell-leonor-39180a1a4/" target="_blank"><img class="contacts-img" src="./web-port-imgs/linked.png" alt="linkedin logo" />
+          Linkedin</a></p>
+      <p><a class="contact-links" href="https://github.com/nyrellcl" target="_blank"><img class="contacts-img" src="./web-port-imgs/github.png" alt="github logo" />Github</a></p>
+      <p><a class="contact-links" href="/"><img class="contacts-img" src="./web-port-imgs/phone.png" alt="phone logo" />(206) 661-2450</a></p>
+      <p><a class="contact-links" href="/"><img class="contacts-img" src="at-solid.svg" alt="at logo" />nyrell.leonor2000@gmail.com</a></p>
+
+    </article>
+
+  </footer>
+   
 </body>
 </html>
