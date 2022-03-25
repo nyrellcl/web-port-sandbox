@@ -105,6 +105,10 @@ li a{
   text-decoration: none;
 }
 
+.nav-bar {
+  background: linear-gradient(90deg, #afcbff 0%, #afcbff 40%, #0000ff00 80%, transparent 100%);
+}
+
 .home-nav{
   display: flex;
   justify-content: space-evenly;
