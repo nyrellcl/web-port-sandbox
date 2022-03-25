@@ -1,5 +1,5 @@
 /*Headings*/
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;0,700;1,400&display=swap');
 
 /*Body*/
 @import url('https://fonts.googleapis.com/css2?family=Halant&display=swap');
@@ -29,13 +29,6 @@ a:hover{
 }
 figcaption{
   color:#152C52;
-}
-header{
-  font-weight: bold;
-  font-size: 1.3rem;
-  margin: 14px;
-  text-decoration: underline;
-  font-family: 'Montserrat', sans-serif;
 }
 
 /*hamburger icon code*/
@@ -107,6 +100,27 @@ header{
   font-size: 1.6rem;
 }
 */
+
+li a{
+  text-decoration: none;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+}
+
+.nav-items{
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  letter-spacing: 2rem;
+}
+  
 
 
 
