@@ -1,23 +1,9 @@
-.fade-in-section{
-  opacity: 0;
-  transform: translateY(20vh);
-  visibility: hidden;
-  transition: opacity 1200ms ease-out, transform 600ms ease-out,
-    visibility 1200ms ease-out;
-  will-change: opacity, transform, visibility;
-}
+/*Headings*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 
-.fade-in-section.is-visible{
-  opacity: 1;
-  transform: none;
-  visibility: visible;
-}
+/*Body*/
+@import url('https://fonts.googleapis.com/css2?family=Halant&display=swap');
 
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 *{
   margin: 0;
@@ -31,39 +17,12 @@ body{
   margin: 0;
   line-height: 1.5;
 }
-h1{
-  color: #E6EDFA;
-  font-family: 'Montserrat', sans-serif;
-}
-p{
-  font-size: 1.1rem;
-  margin: 5px;
-  padding: 10px;
-  font-family: 'Montserrat', sans-serif;
-}
-figure{
-  display: grid;
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  justify-items: center;
-}
-ul{
-  list-style: none;
-  height: 100%;
-}
 
-li{
-  font-family: 'Montserrat', sans-serif;
-}
 
-h1{
-  font-size: 3.5rem;
-}
 a{
   text-decoration: none;
   color: #152C52; 
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Halant', serif;
 }
 a:hover{
   text-decoration: underline;
@@ -78,12 +37,7 @@ header{
   text-decoration: underline;
   font-family: 'Montserrat', sans-serif;
 }
-button{
-  display: inline-flex;
-  align-items: center;
-  height: 50px;
-  margin: 10px;
-}
+
 /*hamburger icon code*/
 #ham-icon{
   margin: auto 0;
@@ -142,7 +96,8 @@ button{
 .mobile-menu li{
   margin-bottom: 10px;
 }
-.home {
+
+/*.home {
   float: left;
   width: 100%;
   display: flex;
@@ -151,202 +106,133 @@ button{
   padding: 1.5rem;
   font-size: 1.6rem;
 }
-.btn-cont{
-  width: 100%;
-  display: flex;
-}
-.btn{
-  width: 100%;
-  border-radius: 10px;
-  cursor: pointer;
-  justify-content: center;
-  background-color: white;
-  font-size: 1.1rem;
-  color: #152C52;
-}
-.btn:hover{
-  background-color: #E6EDFA;
-  transition: background-color 0.25s;
-}
-.nav-bar{
-  width: 100%;
-  position: sticky;
-  display: flex;
-  justify-content: flex-end;
-  background-color: #E6EDFA; 
-  top: 0;
-  left: 0;
-  z-index: 10;
-  box-shadow: 0 6px 15px -10px grey;
+*/
+
+
+
+.welcome-grid{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: auto;
+  margin: 2rem;
 }
 
-.nav-list{
-  display: flex;
-  margin-right: 1.5rem;
-}
-.nav-list a{
-  display: block;
-  font-size: 20px;
-  padding: 1.78rem;
-}
-
-.nav-list a:hover{
-  text-decoration: underline;
-  /*color: #E6EDFA;
-  background-color: #152C52;
-  transition: background-color .5s;*/
-}
 .welcome{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(90deg, #afcbff 0%, #afcbff 40%, #0000ff00 80%, transparent 100%);
+}
+
+.article-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-color: #152C52;
-  text-align: center;
+  width: 50%;
   padding: 3rem 0;
-  background-image: linear-gradient(345deg, #e6edfad4, rgb(86 18 141 / 14%));
 }
 
-.welcome > p{
+.welcome-title, .welcome-description{
+  color: #152C52;
+  margin: 2rem;
+}
+
+.welcome-title{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  
+}
+
+.welcome-description{
+  font-size: 1.4rem;
+  font-family: 'Halant', serif;
+  font-weight: 400;
+  width: 50%;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 5rem;
+}
+
+
+/*Project-grid*/
+
+.project-grid{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  margin: 4rem;
+  grid-gap: 2rem;
+}
+
+.project-1{
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.project-2{
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.project-3{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.project-4{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.photo-size{
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.95rem;
+}
+
+/*Img-wrapper*/
+
+.img-wrapper{
+  position: relative;
+  overflow: hidden;
+}
+
+.img-content {
+  position: absolute;
+  inset: 0;
   font-size: 2rem;
-  color: #E6EDFA;
-}
-
-.about-grid{
-  display: grid;
-  width: 100%;
-  padding: 3rem 0;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-  grid-template-rows: 1fr;
-  grid-template-areas:
-    "about skills"
-    ;
-}
-
- #about{
-  grid-area: about;
-  width: 100%;
-  display: grid;
-  margin: 15px auto;
-  justify-content: flex-start;
-}
-#skills{
-  grid-area: skills;
-  width: 100%;
-  height: 0;
-  display: grid;
-  margin: 15px auto;
-  justify-content: flex-start;
-}
-.skill-list{
+  padding: 1rem;
+  background: rgba(255, 255,255, .4);
   display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-}
-
-.skill-list > li{
-  padding: 18px;
-  padding: 16px;
-  font-size: 1.2rem;
-  display: flex;
+  justify-content: center;
   align-items: center;
-  font-family: 'Montserrat', sans-serif;
-}
-/*I wanted to customize my own bullet points for the skills list.
-using the regular bullet points provided by <li> didn't suit well with the webpage*/
-.skill-list > li::before{
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #152C52;
-  margin: 1em;
-  display: inline;
-  margin-left: -1em;
 }
 
-.about-title{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  font-family: 'Roboto',sans-serif;
-  letter-spacing: 2px;
-  color: #152C52;
+.img-wrapper > .photo-size, .img-wrapper > .img-content {
+    transition: 200ms ease-in-out;
 }
 
-.about-title > p{
-  text-align: left;
+.img-wrapper:hover > .photo-size.blur {
+    filter: blur(5px);
+}
+
+.img-wrapper > .img-content.fade {
+    opacity: 0;
+}
+
+.img-wrapper:hover > .img-content.fade {
+    opacity: 1;
 }
 
 
-.proj-cont{
-  background-color: #F8FAFB;
-  padding: 3.6rem 2.5rem;
-  
-}
-.proj-cont-2{
-  background-color: #F3E2D0;
-  padding: 3.6rem 2.5rem;
-}
 
-.proj-cont-3{
-  background-color: #FFF7E0;
-  padding: 3.6rem 2.5rem;
-    
-}
-
-.proj-cont-4{
-  background-color: #e7efff;
-  padding: 3.6rem 2.5rem;
-}
-
-.proj-cont-5{
-  background-color: #f7f7f7;
-  padding: 3.6rem 2.5rem;
-}
-
-.proj-cont-6{
-  padding: 3.6rem 2.5rem;
-}
-
-.projects-section{
-  display: inline-flex;
-  justify-content: center;
-  width: 100%;
-  align-content: center;
-  margin-top: 15px;
-  
-}
-
-.project-1,
-.project-2,
-.project-3,
-.project-4,
-.project-5,
-.project-6{
-  margin: 70px auto;
-  width: 100%;
-}
-
-.proj-title{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
-  text-decoration: underline;
-  margin: 5rem 0;
-  font-size: 2.1rem;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 2px;
-  color: #152C52;
-}
-
-img{
-  display: flex;
-  width: 100%;
-  border-radius: 10px;
-  margin: 25px auto;
-  box-shadow: 0 11px 30px rgb(0 0 0 / 14%);
-}
 
 .contact-info{
   display: flex;
@@ -369,11 +255,11 @@ img{
   font-size: 2.3rem;
 }
 .contacts-img{
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px
 }
+
 .contact-links{
   width: 100%;
   height: 100%;
@@ -382,73 +268,100 @@ img{
 }
 .contact-title{
   margin-bottom: 50px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 2px;
 }
+
+#hover-left, #hover-right{
+  transition: all 0.5s;
+}
+
+#hover-left:hover{
+  transform: translateX(-20px);
+  cursor: pointer;
+}
+
+#hover-right:hover{
+  transform: translateX(20px);
+  cursor: pointer;
+}
+
+
+
 @media screen and (max-width: 500px) {
-  *{
-    overflow-x: hidden;
+  
+  .welcome {
+    flex-direction: column;
+    background: linear-gradient(180deg, #afcbff 0%, #afcbff 40%, #0000ff00 80%, transparent 100%);
+}
+  
+  .welcome-title {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .welcome-description {
+    width: 100%;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 1rem 0;
   }
   
   .welcome > p{
     text-align: center;
   }
-  .btn{
-    font-size: 0.95rem;
-  }
-  .about-grid{
-  grid-template-columns: repeat(1, 1fr);
-  grid-gap: 20px;
-  grid-template-rows: 1fr;
-  grid-template-areas:
-    "about"
-    "skills"
-    ;
-  }
-  #skills{
+  
+  .photo-size{
     height: 100%;
   }
-  #skills > ul{
-   padding: 0 1.2rem;
-  }
-  .projects-section{
-    margin: 15px auto;
-    text-align: center;
+  
+  .project-grid {
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: auto;
   }
   
-  .project-1, .project-2, .project-3, .project-4, .project-5, .project-6 {
-    margin: 0 auto;/*30px 10px;*/
-    width: 100%;
+  .project-1{
+    grid-column-start: 1;
+    grid-row-start: 1;
   }
+  
+  .project-2{
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+  
+  .project-3{
+    grid-column-start: 1;
+    grid-row-start: 3;
+  }
+  
+  .project-4{
+    grid-column-start: 1;
+    grid-row-start: 4;
+  }
+  
   h1{
     font-size: 3.3rem;
     text-align: center;
     margin: 20px auto;
   }
-  .nav-bar{
-    display: none;
-    }
-  
-  #ham-icon{
+ 
+  /*#ham-icon{
     display: block;
+  }*/
+  
+  .contact-grid{
+    overflow: hidden;
   }
   
-  .contact-links{
-   display: inline-flex;
-   align-items: center;
-   flex-direction: column;
-   justify-items: center;
-}
- .contact-details{
-   display: flex;
-   flex-direction: column;
-   justify-items: center;
-}
+  
   .contacts-img{
     margin: 0 auto;
+    overflow: hidden;
   }
+  
   .ham-container{
-    padding: 1.1rem;
+    display: none;
   }
 
 
