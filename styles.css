@@ -215,39 +215,7 @@ li a{
   border-radius: 0.95rem;
 }
 
-/*Img-wrapper*/
 
-.img-wrapper{
-  position: relative;
-  overflow: hidden;
-}
-
-.img-content {
-  position: absolute;
-  inset: 0;
-  font-size: 2rem;
-  padding: 1rem;
-  background: rgba(255, 255,255, .4);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.img-wrapper > .photo-size, .img-wrapper > .img-content {
-    transition: 200ms ease-in-out;
-}
-
-.img-wrapper:hover > .photo-size.blur {
-    filter: blur(5px);
-}
-
-.img-wrapper > .img-content.fade {
-    opacity: 0;
-}
-
-.img-wrapper:hover > .img-content.fade {
-    opacity: 1;
-}
 
 
 
