@@ -4,6 +4,10 @@
 /*Body*/
 @import url('https://fonts.googleapis.com/css2?family=Halant&display=swap');
 
+body{
+  padding: 0 5rem;
+}
+
 
 /*Nav bar*/
 
@@ -52,6 +56,24 @@ li a{
   text-decoration: none;
 }
 
+.project-intro{
+  display: flex;
+  flex-direction: column;
+}
+
+.project-intro-title{
+  font-family: 'Halant', serif;
+  color: #152C52;
+  font-size: 3.125rem;
+}
+
+.project-description{
+  font-family: 'Halant', serif;
+  font-size: 1.5rem;
+  color: #152C52;
+  
+}
+
 
 /*Img-wrapper*/
 
@@ -85,4 +107,14 @@ li a{
 
 .img-wrapper:hover > .img-content.fade {
     opacity: 1;
+}
+
+
+/*Projects*/
+
+.photo-portfolio-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
 }
