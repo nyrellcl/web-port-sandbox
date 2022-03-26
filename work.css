@@ -13,6 +13,7 @@ body{
 
 li a{
   text-decoration: none;
+  color: #152C52;
 }
 
 #work {
@@ -41,7 +42,6 @@ li a{
 .nav-items{
   list-style: none;
   font-family: 'Josefin Sans', sans-serif;
-  color: #152C52;
   font-weight: 600;
   font-size: 1.125rem;
   letter-spacing: 0.2rem;
@@ -115,6 +115,19 @@ li a{
 .photo-portfolio-container{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
   width: 100%;
+  gap: 5rem;
+  padding: 4rem 0;
+}
+
+.site-details {
+  font-family: 'Halant', serif;
+  font-size: 1.05rem;
+  color: #152C52;
+}
+
+img.photo-size {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
 }
