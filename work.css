@@ -113,6 +113,10 @@ li a{
 
 /*Projects*/
 
+.project-article {
+  padding: 4rem 0;
+}
+
 .photo-portfolio-container{
   display: flex;
   align-items: center;
