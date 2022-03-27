@@ -81,8 +81,6 @@ li a{
 
 .img-wrapper{
   position: relative;
-  overflow: hidden;
-  width: 100%;
 }
 
 .img-content {
