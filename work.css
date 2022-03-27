@@ -82,6 +82,7 @@ li a{
 .img-wrapper{
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 .img-content {
@@ -134,7 +135,7 @@ li a{
 }
 
 img.photo-size {
-  width: 100%;
+  width: 500px;
   height: auto;
   border-radius: 1rem;
 }
@@ -151,6 +152,14 @@ img.photo-size {
   
   .home-nav{
     padding: 0;
+  }
+  
+  .photo-size{
+    width: 100%;
+  }
+  
+  .img-wrapper{
+    width: auto;
   }
   
   .sites-container{
