@@ -276,6 +276,16 @@ li a{
 
 @media screen and (max-width: 500px) {
   
+  .nav-bar{
+    linear-gradient(360deg, #afcbff 100%, #afcbff 100%, #0000ff00 100%, transparent 100%);
+  }
+  
+  .home-nav{
+    justify-content: space-evenly;
+    width: 100%;
+  }
+ 
+  
   .welcome {
     flex-direction: column;
     background: linear-gradient(180deg, #afcbff 0%, #afcbff 40%, #0000ff00 80%, transparent 100%);
@@ -301,30 +311,6 @@ li a{
     height: 100%;
   }
   
-  .project-grid {
-    grid-template-rows: repeat(4, auto);
-    grid-template-columns: auto;
-  }
-  
-  .project-1{
-    grid-column-start: 1;
-    grid-row-start: 1;
-  }
-  
-  .project-2{
-    grid-column-start: 1;
-    grid-row-start: 2;
-  }
-  
-  .project-3{
-    grid-column-start: 1;
-    grid-row-start: 3;
-  }
-  
-  .project-4{
-    grid-column-start: 1;
-    grid-row-start: 4;
-  }
   
   h1{
     font-size: 3.3rem;
