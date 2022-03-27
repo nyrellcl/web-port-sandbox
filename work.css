@@ -93,6 +93,7 @@ li a{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .img-wrapper > .photo-size, .img-wrapper > .img-content {
