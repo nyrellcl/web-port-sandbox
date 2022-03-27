@@ -29,7 +29,7 @@ li a{
   display: flex;
   align-items: center;
   width: 100%;
-  box-shadow: 0 8px 4px -8px grey;
+  /*box-shadow: 0 8px 4px -8px grey;*/
   
 }
 
@@ -140,7 +140,29 @@ img.photo-size {
 
 @media only screen and (max-width: 500px){
   
+  body{
+    padding: 0 1rem;
+  }
+  
+  #work{
+    display: none;
+  }
+  
+  .home-nav{
+    padding: 0;
+  }
+  
   .sites-container{
     flex-direction: column;
     text-align: center;
   }
+  
+  .project-intro-title{
+    text-align: center;
+  }
+  
+  .project-description{
+    width: 100%;
+  }
+  
+  
