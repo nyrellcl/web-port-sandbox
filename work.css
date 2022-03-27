@@ -28,6 +28,7 @@ li a{
   display: flex;
   align-items: center;
   width: 100%;
+  box-shadow: 0 8px 4px -8px grey;
   
 }
 
