@@ -14,6 +14,7 @@ body{
 li a{
   text-decoration: none;
   color: #152C52;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 #work {
@@ -42,7 +43,6 @@ li a{
 
 .nav-items{
   list-style: none;
-  font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
   font-size: 1.125rem;
   letter-spacing: 0.2rem;
