@@ -24,12 +24,8 @@ a{
   color: #152C52; 
   font-family: 'Josefin Sans', sans-serif;
 }
-a:hover{
-  text-decoration: underline;
-}
-figcaption{
-  color:#152C52;
-}
+
+
 
 /*hamburger icon code*/
 #ham-icon{
