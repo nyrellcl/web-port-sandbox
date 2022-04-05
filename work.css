@@ -48,6 +48,36 @@ li a{
   letter-spacing: 0.2rem;
 }
 
+/*hover animation*/
+
+.link{
+  position: relative;
+}
+
+.link::before {
+  content: "";
+}
+
+.link::before, .link::after {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  top: 100%;
+  left: 0;
+}
+
+.line::before {
+  transform-origin: 100% 50%;
+  transform: scale3d(0, 1, 1);
+  transition: transform 0.3s;
+}
+
+.line:hover::before {
+  transform-origin: 0% 50%;
+  transform: scale3d(1, 1, 1);
+}
+
 .name{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.125rem;
