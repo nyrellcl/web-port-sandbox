@@ -34,8 +34,8 @@ li a{
 
 .home-nav{
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  justify-content: flex-end;
+  align-items: center;
   width: 70%;
   gap: 5rem
 }
@@ -120,4 +120,5 @@ h1.title {
   line-height: 2rem;
   font-size: 1.35rem;
   color: #272626;
+  width: 80%;
 }
