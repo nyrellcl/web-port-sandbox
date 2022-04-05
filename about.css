@@ -35,8 +35,8 @@ li a{
 .home-nav{
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100%;
+  align-items: flex-end;
+  width: 70%;
   gap: 5rem
 }
 
@@ -89,6 +89,9 @@ li a{
 
 #article-1{
   margin: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1.title {
@@ -97,6 +100,8 @@ h1.title {
   justify-content: center;
   text-transform: capitalize;
   font-family: 'Halant', serif;
+  margin: 5rem 0;
+  color: #272626;
 }
 
 .title-2 {
@@ -108,4 +113,11 @@ h1.title {
   color: #152C52;
   letter-spacing: 0.2rem;
   margin: 4rem 0;
+}
+
+.article-details {
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 2rem;
+  font-size: 1.35rem;
+  color: #272626;
 }
