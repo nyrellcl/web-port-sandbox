@@ -123,3 +123,17 @@ h1.title {
   color: #272626;
   width: 80%;
 }
+
+.footer-container {
+  text-align: center;
+  width: 287px;
+  height: 20px;
+  margin: 4rem auto auto;
+}
+
+.footer-details {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #BDBDBD;
+  font-size: 0.875rem;
+}
