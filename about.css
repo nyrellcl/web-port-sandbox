@@ -86,3 +86,26 @@ li a{
   color: #152C52;
   text-decoration: none;
 }
+
+#article-1{
+  margin: 0 5rem;
+}
+
+h1.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  font-family: 'Halant', serif;
+}
+
+.title-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.85rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #152C52;
+  letter-spacing: 0.2rem;
+  margin: 4rem 0;
+}
