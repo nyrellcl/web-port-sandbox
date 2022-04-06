@@ -138,6 +138,13 @@ h1.title {
   margin-top: 5rem;
 }
 
+span.bar {
+  width: 80%;
+  background-color: #272626;
+  height: 1px;
+  margin-top: 5rem;
+}
+
 .skill-group {
   width: 100%;
   display: grid;
