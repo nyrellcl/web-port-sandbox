@@ -181,3 +181,12 @@ span.bar {
   color: #BDBDBD;
   font-size: 0.875rem;
 }
+
+
+/*Mobile*/
+
+@media only screen and (max-width: 500px){
+  .skill group{
+    grid-template-columns: 500px;
+  }
+}
