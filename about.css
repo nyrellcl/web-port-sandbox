@@ -151,6 +151,7 @@ span.bar {
   grid-template-columns: 500px 500px 500px;
   grid-template-rows: auto;
   margin-top: 5rem;
+  justify-items: center;
 }
 
 .experience-titles {
